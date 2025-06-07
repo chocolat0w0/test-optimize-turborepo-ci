@@ -1,0 +1,27 @@
+{
+  // ...既存の内容...
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-all",
+      "type": "shell",
+      "command": "yarn workspaces run build",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "lint-all",
+      "type": "shell",
+      "command": "yarn workspaces run lint",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "test-all",
+      "type": "shell",
+      "command": "yarn workspaces run test",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
