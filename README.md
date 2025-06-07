@@ -3,17 +3,20 @@
 このリポジトリはYarnワークスペースを利用したmonorepo構成です。
 
 ## ディレクトリ構成
+
 - apps/app-a
 - apps/app-b
 - packages/package-1
 - packages/package-2
 
 ## 各アプリのコマンド
+
 - `yarn build`
 - `yarn lint`
 - `yarn test`
 
 ## セットアップ
+
 ```sh
 yarn install
 ```
