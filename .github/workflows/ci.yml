@@ -37,6 +37,8 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: yarn install --immutable
+      - name: Turbo dry run (build)
+        run: yarn turbo run build --dry=json
       - name: Build all
         run: yarn build
 
@@ -69,6 +71,8 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: yarn install --immutable
+      - name: Turbo dry run (lint)
+        run: yarn turbo run lint --dry=json
       - name: Lint all
         run: yarn lint
 
@@ -101,5 +105,7 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: yarn install --immutable
+      - name: Turbo dry run (test)
+        run: yarn turbo run test --dry=json
       - name: Test all
         run: yarn test
