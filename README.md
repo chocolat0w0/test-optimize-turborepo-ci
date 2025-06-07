@@ -23,4 +23,3 @@ yarn install
 - `yarn lint`
 - `yarn test`
 
-test
