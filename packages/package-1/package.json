@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "lint": "echo 'lint package-1'",
+    "lint": "eslint . --config ./eslint.config.js --ext .js,.ts",
     "test": "jest"
   },
   "devDependencies": {
