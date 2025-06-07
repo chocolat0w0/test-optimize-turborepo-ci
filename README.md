@@ -11,14 +11,13 @@ node: 22.9.0
 - packages/package-1
 - packages/package-2
 
-## 各アプリのコマンド
-
-- `yarn build`
-- `yarn lint`
-- `yarn test`
-
 ## セットアップ
 
 ```sh
 yarn install
 ```
+## 各アプリのコマンド
+
+- `yarn build`
+- `yarn lint`
+- `yarn test`
