@@ -1288,6 +1288,8 @@ __metadata:
   resolution: "app-b@workspace:apps/app-b"
   dependencies:
     "@types/jest": "npm:^29.5.14"
+    "@typescript-eslint/eslint-plugin": "npm:^8.33.1"
+    "@typescript-eslint/parser": "npm:^8.33.1"
     eslint: "npm:^9.28.0"
     jest: "npm:^29.7.0"
     ts-jest: "npm:^29.3.4"
