@@ -9,9 +9,9 @@
 - packages/package-2
 
 ## 各アプリのコマンド
-- `yarn workspace app-a build` / `yarn workspace app-b build`
-- `yarn workspace app-a lint` / `yarn workspace app-b lint`
-- `yarn workspace app-a test` / `yarn workspace app-b test`
+- `yarn build`
+- `yarn lint`
+- `yarn test`
 
 ## セットアップ
 ```sh
