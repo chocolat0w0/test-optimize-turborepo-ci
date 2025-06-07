@@ -18,5 +18,10 @@
     "ts-jest": "^29.3.4",
     "turbo": "^2.5.4",
     "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
   }
 }
